@@ -12,5 +12,6 @@ public class Ejercicio4 {
         mayor = a>b? Math.max(a,c) : Math.max(b, c);
         menor = a<b? Math.min(a,c) : Math.min(b, c);
 
+
     }
 }
