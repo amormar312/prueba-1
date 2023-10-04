@@ -11,7 +11,8 @@ public class Ejercicio4 {
 
         mayor = a>b? Math.max(a,c) : Math.max(b, c);
         menor = a<b? Math.min(a,c) : Math.min(b, c);
+        medio = a==mayor? b==menor? c : b : b==mayor? a==menor? c : a : a==menor? b==menor? c : b : a;
 
-
+        System.out.println("valor maximo: " + mayor + " valor minimo: " + menor + " valor intermedio: " + medio);
     }
 }
